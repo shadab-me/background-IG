@@ -109,12 +109,55 @@ header{
 }
 .content-center{
     justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 .username{
     padding: 5px;
 }
 
-.day{
-    color: brown;
+.count{
     padding: 20px;
+}
+.light{
+    font-weight: 100;
+    opacity: .7;
+}
+/* social */
+.facebook{
+    border-top: 5px solid red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.twitter{
+    border-top: 5px solid red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+}
+.instagram {
+    border-top: 5px solid red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+} 
+
+.youtube{
+    border-top: 5px solid red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+
+}
+
+/* social icon */
+.fb i{
+    color: blue;
+}
+.twi i{
+    color: blue;
+}
+.insta {
+    color: rgb(225,120,125)
+
+}
+.utube i{
+    color: rgb(225,120,45)
 }
