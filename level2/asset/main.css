@@ -145,9 +145,10 @@ h2 {
     font-size: 30px;
 }
 
-h3{
+h3 {
     font-size: 22px;
 }
+
 h5 {
     font-size: 18px;
 }
@@ -182,10 +183,20 @@ header {
     margin-bottom: 120px;
     padding-top: 20px;
 }
+.dark-toggle{
+    width: 50px;
+    height: 24px;
+    background-image: linear-gradient(to right, hsl(204,57%,54%), hsl(153,62%,52%));
+    border-radius: 12px;
+    padding: 5px;
+    position: relative;
+    margin-left: 12px;
+}
 
 .flex {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .content-justify {
@@ -260,7 +271,7 @@ header {
     color: blue;
 }
 
-.insta{
+.insta {
     color: rgb(225, 120, 125)
 }
 
@@ -273,13 +284,13 @@ header {
     padding-bottom: 25px;
 }
 
-.icon{
+.icon {
     margin-bottom: 30px;
 }
 
 /* second section */
 
- .count-number{
-     padding-top: 20px;
-     text-align: left;
- }
+.count-number {
+    padding-top: 20px;
+    text-align: left;
+}
