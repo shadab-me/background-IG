@@ -3,19 +3,87 @@
     License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -26,8 +94,17 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -35,16 +112,20 @@ body {
     line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
@@ -56,121 +137,149 @@ table {
 
 
 /* typography */
-h1{
+h1 {
     font-size: 36px;
 }
-h2{
-    font-size: 24px;
+
+h2 {
+    font-size: 30px;
 }
-h5{
+
+h3{
+    font-size: 22px;
+}
+h5 {
     font-size: 18px;
 }
-p{
+
+p {
     font-size: 14px;
 }
 
 /* Globals sector */
 *,
 *::before,
-*::after{
-box-sizing: border-box;
+*::after {
+    box-sizing: border-box;
 }
 
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     font: 600 12px/1.5 sans-serif;
     color: rgba(245, 245, 245, 0.671);
-    background-color: hsl(225,17%,14%);
+    background-color: hsl(225, 17%, 14%);
 }
-.container{
-        width: 80%;
-        margin: 0 auto;
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
-header{
+
+header {
     margin-bottom: 120px;
     padding-top: 20px;
 }
 
-.flex{
+.flex {
     display: flex;
+    flex-wrap: wrap;
 }
-.content-justify{
+
+.content-justify {
     justify-content: space-between;
 }
-.box{
+
+.box {
     width: 23%;
     padding: 30px;
-    background-color: hsl(228,29%,20%);
+    background-color: hsl(228, 29%, 20%);
     text-align: center;
-    margin: 20px;
+    margin: 5px;
 
- }
+}
 
- 
-.fab{
+
+.fab {
     font-size: 30px;
 }
-.content-center{
+
+.content-center {
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 15px;
 }
-.username{
+
+.username {
     padding: 5px;
 }
 
-.count{
+.count {
     padding: 20px;
 }
-.light{
+
+.light {
     font-weight: 100;
     opacity: .7;
 }
+
 /* social */
-.facebook{
+.facebook {
     border-top: 5px solid red;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.twitter{
+
+.twitter {
     border-top: 5px solid red;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px; 
+    border-top-right-radius: 5px;
 }
+
 .instagram {
     border-top: 5px solid red;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px; 
-} 
+    border-top-right-radius: 5px;
+}
 
-.youtube{
+.youtube {
     border-top: 5px solid red;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px; 
+    border-top-right-radius: 5px;
 
 }
 
 /* social icon */
-.fb i{
+.fb i {
     color: blue;
 }
-.twi i{
-    color: blue;
-}
-.insta {
-    color: rgb(225,120,125)
 
+.twi i {
+    color: blue;
 }
-.utube i{
-    color: rgb(225,120,45)
+
+.insta{
+    color: rgb(225, 120, 125)
 }
-.overview{
+
+.utube i {
+    color: rgb(225, 120, 45)
+}
+
+.overview {
     padding-top: 66px;
     padding-bottom: 25px;
 }
 
+.icon{
+    margin-bottom: 30px;
+}
 
 /* second section */
 
-.count1{
-    ;
-}
+ .count-number{
+     padding-top: 20px;
+     text-align: left;
+ }
