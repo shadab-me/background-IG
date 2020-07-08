@@ -62,6 +62,9 @@ h1{
 h2{
     font-size: 24px;
 }
+h5{
+    font-size: 18px;
+}
 p{
     font-size: 14px;
 }
@@ -83,9 +86,8 @@ body{
         margin: 0 auto;
 }
 header{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
+    margin-bottom: 120px;
+    padding-top: 20px;
 }
 
 .flex{
@@ -160,4 +162,15 @@ header{
 }
 .utube i{
     color: rgb(225,120,45)
+}
+.overview{
+    padding-top: 66px;
+    padding-bottom: 25px;
+}
+
+
+/* second section */
+
+.count1{
+    ;
 }
