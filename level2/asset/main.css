@@ -102,18 +102,16 @@ header{
     margin: 20px;
 
  }
-.facebook{
-    border-top: 5px hsl(225,17%,14%);
-}
-.facebook fab{
-    color: red;
-}
 
+ 
 .fab{
     font-size: 30px;
 }
-
+.content-center{
+    justify-content: center;
+}
 .username{
+    padding: 5px;
 }
 
 .day{
