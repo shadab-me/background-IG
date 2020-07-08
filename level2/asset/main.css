@@ -56,7 +56,9 @@ table {
 
 
 /* typography */
-
+h1{
+    font-size: 36px;
+}
 h2{
     font-size: 24px;
 }
@@ -84,4 +86,37 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
+}
+
+.flex{
+    display: flex;
+}
+.content-justify{
+    justify-content: space-between;
+}
+.box{
+    width: 23%;
+    padding: 30px;
+    background-color: hsl(228,29%,20%);
+    text-align: center;
+    margin: 20px;
+
+ }
+.facebook{
+    border-top: 5px hsl(225,17%,14%);
+}
+.facebook fab{
+    color: red;
+}
+
+.fab{
+    font-size: 30px;
+}
+
+.username{
+}
+
+.day{
+    color: brown;
+    padding: 20px;
 }
